@@ -11,6 +11,9 @@ const db = [
 ]
 
 export class UserService {
+    deleteUser(userId: string) {
+        throw new Error('Method not implemented.')
+    }
     db: User[]
 
     constructor(

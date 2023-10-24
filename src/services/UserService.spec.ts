@@ -6,7 +6,7 @@ describe('UserService', () => {
 
     it('Deve adicionar um novo usuário', () => {
         const mockConsole = jest.spyOn(global.console, 'log')
-        userService.createUser('nath', 'nath@test.com');
+        userService.createUser('Elio', 'Elio@test.com');
         expect(mockConsole).toHaveBeenCalledWith('DB atualizado', mockDb)
     })
 })
